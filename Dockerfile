@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the application JAR file into the container
-COPY target/notificationservice-0.0.1-SNAPSHOT.jar notificationservice.jar
+COPY target/NotificationService-0.0.1-SNAPSHOT.jar notificationservice.jar
 
 # Expose the port the app runs on
 EXPOSE 8081
